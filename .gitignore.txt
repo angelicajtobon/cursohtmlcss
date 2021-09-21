@@ -1,3 +1,0 @@
-imagenes/*.jpg
-imagenes/*.png
-imagenes/*.pdf
