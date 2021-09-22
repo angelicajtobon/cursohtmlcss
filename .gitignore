@@ -1,5 +1,8 @@
 *.jpg
-imagenes/*.jpg
-imagenes/*.png
-imagenes/*.pdf
-imagenes/*.JPG
+primerapartecurso/imagenes/*.jpg
+primerapartecurso/imagenes/*.png
+primerapartecurso/imagenes/*.pdf
+primerapartecurso/imagenes/*.JPG
+
+claseimg/images/*jpg
+clasevideo/*mp4
