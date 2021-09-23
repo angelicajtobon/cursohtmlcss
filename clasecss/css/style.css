@@ -1,0 +1,16 @@
+/*por etiqueta*/
+p{
+    color:blue;
+}
+
+/*por clase*/
+
+.parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*por ID*/
+#otro_parrafo{
+    font-size: x-large;
+    color: chocolate;
+}

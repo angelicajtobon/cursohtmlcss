@@ -1,0 +1,61 @@
+/*por clase*/
+
+.main-nav {
+    margin-top: 10px;
+    /*quitar las viñetas*/
+    list-style: none;
+    padding-left: 0px;
+    background-color: #13A4A4;
+}
+
+.main-nav_item {
+    display: inline-block;
+}
+
+
+/*por clase especica + etiqueta*/
+
+.main-nav_item a {
+    color: ghostwhite;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+
+/*pseudoclases con 2 puntos + evento*/
+
+.main-nav_item a:hover {
+    color: blue;
+}
+
+.main-nav_item a:active {
+    color: blueviolet;
+}
+
+
+/*pseudoelementos con 4 puntos ::*/
+
+.main-nav_item a::after {
+    content: " | ";
+}
+
+
+/*MODELOS DE CAJA*/
+
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid greenyellow;
+    padding: 20px 35px;
+}
+
+
+/*resetear estulos por defecto del navegador con la clase universal * */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}

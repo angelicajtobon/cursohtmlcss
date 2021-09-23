@@ -1,0 +1,11 @@
+html {
+    font-size: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Heredar del padre cercano*/
+
+h1 {
+    font-size: inherit;
+}
