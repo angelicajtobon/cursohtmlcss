@@ -1,0 +1,28 @@
+/*Combinadores
+
+HERMANOS ADYACENTES O HERMANOS CERCANOS
+
+
+h2+p {
+    color: brown;
+}
+
+
+HERMANO GENERAL
+
+h2~p {
+    color: crimson;
+}
+
+HIJOS DIRECTOS
+
+div>p {
+    color: crimson;
+}
+
+DESCENDIENTE
+*/
+
+div p {
+    color: crimson;
+}
