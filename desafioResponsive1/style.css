@@ -1,0 +1,65 @@
+:root {
+    --font-type: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(./img/fondo.jpg);
+}
+
+main {
+    background-color: rgb(114, 114, 114);
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 .titulo {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(255, 250, 250);
+    display: flex;
+    margin: 20px auto;
+    font-family: var(--font-type);
+}
+
+div .cont-titulo {
+    width: 100%;
+    height: 5rem;
+    background-color: darkolivegreen;
+    opacity: 80%;
+    display: flex;
+}
+
+.presentacion {
+    width: 100%;
+    height: 10rem;
+    font-size: 1.6rem;
+    font-family: var(--font-type);
+}
+
+.portafolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.desafio1,
+.desafio2,
+.desafio3 {
+    width: 10rem;
+    height: 10rem;
+    background-color: thistle;
+    border: white solid 3px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}

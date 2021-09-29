@@ -1,0 +1,12 @@
+/*Siempre los media van al final*/
+
+
+/*Funciona como un ifpara elegir las pantallas*/
+
+@media(min-width: 600px) {
+    .c2,
+    .c3,
+    .c4 {
+        width: 50%;
+    }
+}
