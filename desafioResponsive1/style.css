@@ -14,52 +14,131 @@ html {
 
 body {
     background-image: url(./img/fondo.jpg);
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
-main {
-    background-color: rgb(114, 114, 114);
+body:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+
+.container {
     width: 100%;
-    height: 90%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-h1 .titulo {
-    font-size: 2rem;
+.cont-titulo h1 {
+    font-size: 2.5rem;
     text-align: center;
-    color: rgb(255, 250, 250);
+    color: rgb(255, 255, 255);
     display: flex;
     margin: 20px auto;
     font-family: var(--font-type);
+    opacity: 100%;
 }
 
-div .cont-titulo {
+.cont-titulo {
     width: 100%;
-    height: 5rem;
-    background-color: darkolivegreen;
+    height: 10rem;
+    background-color: rgba(12, 12, 12, 0.705);
     opacity: 80%;
     display: flex;
+    padding: 20px;
 }
 
 .presentacion {
     width: 100%;
     height: 10rem;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(252, 252, 252, 0.836);
+    opacity: 70%;
+    margin: 2.5rem 3rem;
+}
+
+.presentacion p {
     font-size: 1.6rem;
     font-family: var(--font-type);
+    color: rgb(17, 17, 17);
+    margin: 1rem auto;
+    font-weight: normal;
 }
 
 .portafolio {
     display: flex;
     flex-wrap: wrap;
+    padding: 30px;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .desafio1,
 .desafio2,
-.desafio3 {
-    width: 10rem;
-    height: 10rem;
-    background-color: thistle;
-    border: white solid 3px;
+.desafio3,
+.desafio4 {
+    width: 20rem;
+    height: 20rem;
+    background-color: rgba(247, 241, 247, 0.788);
+    opacity: 70%;
+    border: rgb(7, 7, 7) solid 3px;
     border-radius: 10px;
     margin: 10px 10px;
+    box-shadow: 5px 5px 5px rgb(126, 125, 125);
+    padding: 20px;
+}
+
+.desafio1,
+.desafio2,
+.desafio3,
+.desafio4 p {
+    font-size: 1.3rem;
+    font-family: var(--font-type);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (min-width:600px) {
+    .desafio1,
+    .desafio2,
+    .desafio3,
+    .desafio4 {
+        width: 800%;
+    }
+    .presentacion {
+        width: 90%;
+    }
+    .portafolio {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:800px) {
+    .container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .desafio1,
+    .desafio2,
+    .desafio3,
+    .desafio4 {
+        width: 40%;
+    }
+    .presentacion {
+        width: 90%;
+    }
 }
